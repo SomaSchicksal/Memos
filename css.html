@@ -1,0 +1,23 @@
+About FLEXBOX...
+First u set a div with a class of "flex-container". U then have to style it in your css file.
+The first attribute you are going to put on your flex-container css is the display. If u put a flex value on your diplay attribut (display:flex), the layout is GONNA BE RESPONSIVE.
+The second attribute is gonna be "flex-direction". Flex-direction can take different value: row(elements are gonna be displayed in a row, from left to right), row-reverse(same as row but inverse order),column(displayed in a column position, from top to bottom), column-reverse.
+The third attribute is gonna be "justify-content".It can take the following values: flex-start( alligns them to the left side of the screen), flex-end(aligns elements to the right side of the screen), center(aligns elements at the center of the element), space-between (puts space between elements), space-around(distributed space between elements)
+These are usually the main attributes. There are others
+Another one is "flex-wrap" that allows elements to wrap around each other. Its value is usually "wrap" and its opposite "wrap-reverse".Its a good attribute for mobile.
+Another really useful attribute is "align-items". As values it takes "flex-start"(the elements will be aligned at the top of the file), "flex-end" (the elements will be aligned at the bottom), "center" (aligned right in the middle of the file).
+Similar to the previous one theres "align-content".As values it takes the same ones as align items plus space around and space between.
+I can even align single elements with "align-self"
+
+About ANIMATION...
+You animate an element in css by typing @keyframes just like this:
+@keyframes change-color(this is a random name){
+	from {background-color: salmon;}
+	to{background-color: lightblue;}
+}
+
+After that we can give that animation to any of our css elements using the "animation-name" attribute and personalize it with other attributes like "animation-duration".
+Another interesting attribute in animation is the "animation-iteration-count"(number of times the animation will run) that can take multiple values: infinite, simple numbers etc
+Another one can be "animation-delay"
+Instead of from and to i can use other keywords as well in my animation, like percentages, where percentages indicates the moment when my animation occurs/changes, theyre basically intervals.
+You can change position as well
